@@ -1,0 +1,66 @@
+//GLOBAL VARIABLES
+$color-one: #5CCFEE;
+$color-two: #1A2027;
+$color-three: #262B32;
+$color-four: #fff;
+
+:root {
+    --btn-duration-slow: 2s;
+    --btn-duration-normal: 3s;
+    --btn-duration-fast: 5s;
+    --btn-default-color: #5CCFEE;
+    --btn-blue-color: #00bcd4;
+}
+
+// GLOBAL CONFIGS
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #1A2027;
+
+}
+
+.dash-pages {
+
+    background-color: $color-one;
+    border: 1px solid $color-one;
+    width: 100px;
+    height: 2px;
+    margin-top: 13px;
+    margin-right: 15px;
+
+}
+
+//IMPORTS FONTS
+@font-face {
+    font-family: 'CustomFont_Montserrat';
+    src: url('../fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC73w5aXo.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'CustomFont_title';
+    src: url('../fonts/fontText.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'CustomFont_subtitle';
+    src: url('../fonts/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'CustomFont_description';
+    src: url('../fonts/pxiEyp8kv8JHgFVrJJfecg.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}

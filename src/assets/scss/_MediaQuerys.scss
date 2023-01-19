@@ -1,0 +1,207 @@
+@media (min-width: 1441px) and (max-width: 3000px) {
+
+    //Neon block
+    .neon-block {
+        .block {
+            width: 450px;
+            height: 450px;
+
+            &:after {
+                width: 450px;
+                height: 450px;
+            }
+
+            .rainbow {
+                width: 450px;
+                height: 450px;
+
+                &:after {
+                    width: 450px;
+                    height: 450px;
+                }
+
+            }
+        }
+    }
+
+}
+
+@media (min-width: 426px) and (max-width: 1440px) {
+
+    //Neon block
+    .neon-block {
+        .block {
+            width: 250px;
+            height: 250px;
+
+            &:after {
+                width: 250px;
+                height: 250px;
+            }
+
+            .rainbow {
+                width: 250px;
+                height: 250px;
+
+                &:after {
+                    width: 250px;
+                    height: 250px;
+                }
+
+            }
+        }
+    }
+
+}
+
+@media (min-width: 321px) and (max-width: 425px) {
+
+    div>.home-links {
+        margin-bottom: 10px;
+    }
+
+    div>.neon-button {
+        margin-top: 0px !important;
+    }
+
+    .neon-button .btn {
+        font-size: 15px;
+    }
+
+    //Neon block
+    .neon-block {
+        .block {
+            width: 250px;
+            height: 250px;
+
+            &:after {
+                width: 250px;
+                height: 250px;
+            }
+
+            .rainbow {
+                width: 250px;
+                height: 250px;
+
+                &:after {
+                    width: 250px;
+                    height: 250px;
+                }
+
+            }
+        }
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 320px) {
+
+    div>.home-links {
+        margin-bottom: 10px;
+    }
+
+    div>.neon-button {
+        margin-top: 0px;
+    }
+
+    .neon-button .btn {
+        font-size: 15px;
+    }
+
+    //Neon block
+    .neon-block {
+        .block {
+            width: 250px;
+            height: 250px;
+
+            &:after {
+                width: 250px;
+                height: 250px;
+            }
+
+            .rainbow {
+                width: 250px;
+                height: 250px;
+
+                &:after {
+                    width: 250px;
+                    height: 250px;
+                }
+
+            }
+        }
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 299px) {
+
+    div>.home-links {
+        margin-bottom: 10px;
+    }
+
+    div>.neon-button {
+        margin-top: 0px;
+    }
+
+    .neon-button .btn {
+        font-size: 15px;
+    }
+
+    //Neon block
+    .neon-block {
+        .block {
+            width: 100px;
+            height: 100px;
+
+            &:after {
+                width: 100px;
+                height: 100px;
+            }
+
+            .rainbow {
+                width: 100px;
+                height: 100px;
+
+                &:after {
+                    width: 100px;
+                    height: 100px;
+                }
+
+            }
+        }
+    }
+
+}
+
+
+// ADICIONAL CONFIG MEDIA QUERYS
+
+@media (min-width: 0px) and (max-width: 1199px) {
+    div>#tsparticles {
+        height: 80vh;
+    }
+
+    div>#section-home {
+        height: max-content;
+    }
+
+    div>#section-skills {
+        height: max-content;
+    }
+
+    div>#section-portfolio {
+        height: max-content;
+    }
+
+    div>#section-contact {
+        height: max-content;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+    h1>.dash-pages {
+        width: 50px;
+        margin-top: 8px;
+    }
+}
